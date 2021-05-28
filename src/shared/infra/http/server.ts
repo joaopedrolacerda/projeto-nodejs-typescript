@@ -1,14 +1,12 @@
 import 'express-async-errors';
 import express, { Request, Response, NextFunction } from 'express';
-import './database';
-import { categoriesRoutes } from './routes/categories.routes';
-import './shared/container';
+import '@shared/infra/typeorm';
+import '@shared/container/index';
 
 import swaggerUi from 'swagger-ui-express';
-import swaggerFile from './swagger.json';
-import { specificationsRoutes } from './routes/specifications.routes';
-import { router } from './routes';
-import { AppError } from '@errors/AppError';
+import swaggerFile from 'swagger.json';
+import { router } from '@shared/infra/http/routes';
+import { AppError } from '@shared/errors/AppError';
 const app = express();
 
 app.use(express.json());
