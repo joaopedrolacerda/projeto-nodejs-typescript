@@ -1,0 +1,20 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#f87e2c",
+    "activityBar.activeBorder": "#ec660d",
+    "activityBar.background": "#f87e2c",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#422c74",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "statusBar.background": "#ec660d",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#2f7c52215747",
+    "titleBar.activeBackground": "#f87e2c",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#ec660d",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#215732",
+  "js/ts.implicitProjectConfig.checkJs": true
+}
