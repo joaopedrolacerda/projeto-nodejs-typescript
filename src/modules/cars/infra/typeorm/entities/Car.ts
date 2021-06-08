@@ -23,7 +23,7 @@ class Car {
   daily_rate: number;
 
   @Column()
-  availabel: boolean;
+  available: boolean;
 
   @Column()
   license_plate: string;
@@ -42,12 +42,12 @@ class Car {
   category_id: string;
 
   @CreateDateColumn()
-  create_at: Date;
+  created_at: Date;
 
   constructor() {
     if (!this.id) {
       this.id = uuidV4();
-      this.availabel = true;
+      this.available = true;
     }
   }
 }
